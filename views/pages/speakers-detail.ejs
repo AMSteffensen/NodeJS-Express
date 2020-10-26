@@ -27,9 +27,7 @@
           can check out some of the work from our speakers.
         </p>
         <div class="pixgrid clearfix">
-          <% speakerArtwork.forEach(function (item) { %>
-          <img src="/images/artwork/<%=item%>" alt="artwork" />
-          <%})%>
+          <%- include('./partials/artwork.ejs') %>
         </div>
       </article>
     </aside>
